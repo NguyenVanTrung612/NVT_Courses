@@ -126,7 +126,7 @@ p {
 }
 
 header {
-  background-color: var(--light-pink);
+  /* background-color: var(--light-pink); */
 }
 
 .navbar {
@@ -134,7 +134,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 25px 15px 55px 15px;
-  background-color: var(--light-pink);
+  /* background-color: var(--light-pink); */
 }
 
 /* logo */
@@ -196,7 +196,7 @@ header {
 .navbar__btn {
   font-size: 1.125rem;
   margin-left: 35px;
-  border: 2px solid var(--pink);
+  /* border: 2px solid var(--pink); */
 }
 
 /* icon  */
@@ -258,7 +258,8 @@ header {
     position: initial;
     transform: translateX(0);
     opacity: 1;
-    background-color: var(--light-pink);
+    /* background-color: var(--light-pink); */
+    background-color: white;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -283,7 +284,7 @@ header {
 
 /* Banner ============= */
 #banner .container {
-  background-image: linear-gradient(to bottom, var(--light-pink), #fff);
+  /* background-image: linear-gradient(to bottom, var(--light-pink), #fff); */
 }
 
 .banner__desc {
