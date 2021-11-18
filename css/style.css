@@ -757,6 +757,21 @@ header {
     margin-top: 0;
   }
 }
+/* change */
+@media only screen and (max-width: 600px) {
+  .banner__detail,
+  .banner__title,
+  .section__detail,
+  .contact__title h1 {
+    font-size: 20px;
+  }
+  .section__title {
+    font-size: 30px;
+  }
+  .section__title {
+    font-size: 30px;
+  }
+}
 
 .navbar__logo__2 {
   height: 10px;
