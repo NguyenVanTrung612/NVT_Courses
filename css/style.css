@@ -774,6 +774,9 @@ header {
   .todo__step-desc h5 {
     font-size: 30px;
   }
+  .contagion__card h2 {
+    font-size: 30px;
+  }
 }
 
 .navbar__logo__2 {
