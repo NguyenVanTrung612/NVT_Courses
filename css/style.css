@@ -777,6 +777,9 @@ header {
   .contagion__card h2 {
     font-size: 30px;
   }
+  .navbar__logo p {
+    line-height: 25px;
+  }
 }
 
 .navbar__logo__2 {
