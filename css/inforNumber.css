@@ -57,7 +57,7 @@
   max-width: 720px;
   font-weight: bold;
   font-family: "Domine", serif;
-  font-size: 60px;
+  font-size: 52px;
   font-weight: bold;
   line-height: 44px;
   letter-spacing: 0.8px;
@@ -167,6 +167,9 @@
   color: grey;
   margin-top: 24px;
 }
+.infor__img img {
+  max-width: 60%;
+}
 
 @media screen and (max-width: 799px) {
   .infoNumbers__itemTitle {
@@ -175,7 +178,7 @@
   }
   .infor__img img {
     max-width: 48%;
-    margin-left: 90px;
+    margin-left: -2px;
   }
 }
 
@@ -183,8 +186,4 @@
   .infoNumbers__itemTitle {
     margin-top: 16px;
   }
-}
-
-.infor__img {
-  max-width: 60%;
 }
