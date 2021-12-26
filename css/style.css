@@ -780,9 +780,31 @@ header {
   .navbar__logo p {
     line-height: 25px;
   }
+  .contagion__card {
+    max-width: 80%;
+    margin-left: 40px;
+  }
 }
 
 .navbar__logo__2 {
   height: 10px;
   width: 10px;
+}
+
+/* fix UI =)))) */
+.symptoms__img img {
+  max-width: 80%;
+  margin-left: 50px;
+}
+.banner__img img {
+  max-width: 80%;
+  margin-left: 30px;
+}
+.whatis__img img {
+  max-width: 80%;
+  margin-left: 30px;
+}
+.todo__step-img {
+  max-width: 80%;
+  margin-left: 30px;
 }

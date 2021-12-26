@@ -175,6 +175,7 @@
   }
   .infor__img img {
     max-width: 48%;
+    margin-left: 90px;
   }
 }
 
@@ -182,4 +183,8 @@
   .infoNumbers__itemTitle {
     margin-top: 16px;
   }
+}
+
+.infor__img {
+  max-width: 60%;
 }
