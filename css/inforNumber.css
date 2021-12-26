@@ -173,6 +173,9 @@
     font-size: 18px;
     line-height: 26px;
   }
+  .infor__img img {
+    max-width: 48%;
+  }
 }
 
 @media screen and (max-width: 799px) {
