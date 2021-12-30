@@ -757,6 +757,30 @@ header {
     margin-top: 0;
   }
 }
+
+.navbar__logo__2 {
+  height: 10px;
+  width: 10px;
+}
+
+/* fix UI =)))) */
+.symptoms__img img {
+  max-width: 80%;
+  margin-left: 40px;
+}
+.banner__img img {
+  max-width: 80%;
+  margin-left: 30px;
+}
+.whatis__img img {
+  max-width: 80%;
+  margin-left: 30px;
+}
+.todo__step-img {
+  max-width: 80%;
+  margin-left: 30px;
+}
+
 /* change */
 @media only screen and (max-width: 500px) {
   .banner__detail,
@@ -787,13 +811,13 @@ header {
 }
 
 /* Change UI */
-.navbar__logo__2 {
+/* .navbar__logo__2 {
   height: 10px;
   width: 10px;
-}
+} */
 
 /* fix UI =)))) */
-.symptoms__img img {
+/* .symptoms__img img {
   max-width: 80%;
   margin-left: 40px;
 }
@@ -808,4 +832,4 @@ header {
 .todo__step-img {
   max-width: 80%;
   margin-left: 30px;
-}
+} */
