@@ -1,8 +1,10 @@
+@import "variable";
+
 .infoNumbers {
   padding-top: 120px;
   padding-bottom: 120px;
   width: 100%;
-  color: #035755;
+  color: $main-color;
 }
 
 @media screen and (max-width: 1023px) {
@@ -61,7 +63,7 @@
   font-weight: bold;
   line-height: 44px;
   letter-spacing: 0.8px;
-  color: #035755;
+  color: $main-color;
 }
 
 @media screen and (max-width: 799px) {
@@ -132,7 +134,7 @@
   font-weight: 500;
   line-height: 48px;
   letter-spacing: 1.6px;
-  color: #035755;
+  color: $main-color;
   font-family: "Domine", serif;
 }
 
