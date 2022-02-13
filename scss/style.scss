@@ -51,7 +51,8 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-button {
+
+@mixin buttonStyle {
   font-family: "Domine", serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -64,11 +65,21 @@ button {
   box-shadow: var(--shadow);
   transition: var(--smooth);
 }
-button:hover {
+
+button {
+  @include buttonStyle();
+}
+
+@mixin buttonStyleHover {
   color: var(--orange);
   background-color: var(--light-pink);
   transition: var(--smooth);
 }
+
+button:hover {
+  @include buttonStyleHover();
+}
+
 p {
   line-height: 40px;
 }
@@ -99,6 +110,7 @@ p {
   max-width: 700px;
   margin: 0 auto;
 }
+
 :root {
   --orange: #fa5652;
   --green: #035755;
